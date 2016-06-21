@@ -500,8 +500,8 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8,4],
-        "indent": 16,
-        "indent_offset": 16,
+        "indent": 16, // 16
+        "indent_offset": 16, //16
         "indent_top_level": false,
         "dark_content": true
     },
@@ -663,10 +663,10 @@
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
-        "content_margin": [8,8],
+        "content_margin": [0,0],
         "layer0.texture": "Theme - Afterglow/Afterglow/folder-closed.png",
         "layer0.tint": [120, 120, 120], // 02
-        "layer0.opacity": 1,
+        "layer0.opacity": 0,
         "layer0.inner_margin": 0
     },
     {
@@ -721,7 +721,7 @@
     },
     {
         "class": "icon_folder_loading",
-        "content_margin": [0,0]
+        "content_margin": [8,8]
     },
     {
         "class": "icon_file_type",
